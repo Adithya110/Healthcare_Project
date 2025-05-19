@@ -1,0 +1,64 @@
+/* DoctorForm.css */
+.doctor-form {
+  max-width: 450px;
+  margin: 30px auto 60px;
+  padding: 25px 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.doctor-form h3 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 25px;
+}
+
+.doctor-form input[type="text"] {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.doctor-form input[type="text"]:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+.doctor-form button {
+  padding: 12px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-form button[type="submit"] {
+  background-color: #2980b9;
+  color: white;
+}
+
+.doctor-form button[type="submit"]:hover {
+  background-color: #1c5980;
+}
+
+.doctor-form button[type="button"] {
+  background-color: #7f8c8d;
+  color: white;
+  margin-left: 15px;
+}
+
+.doctor-form button[type="button"]:hover {
+  background-color: #606b6d;
+}
+
+.doctor-form .button-group {
+  text-align: center;
+}

@@ -1,0 +1,74 @@
+/* DoctorList.css */
+.doctor-list-container {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.doctor-list-container h2 {
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.doctor-list-container button.create-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+}
+
+.doctor-list-container button.create-btn:hover {
+  background-color: #219150;
+}
+
+.doctor-list-container ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.doctor-list-container li {
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  background-color: #f7f9fc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.doctor-list-container li button {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-list-container li button:hover {
+  background-color: #1c5980;
+}
+
+.doctor-list-container li button.delete-btn {
+  background-color: #e74c3c;
+}
+
+.doctor-list-container li button.delete-btn:hover {
+  background-color: #c0392b;
+}

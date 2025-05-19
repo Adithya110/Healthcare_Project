@@ -1,0 +1,23 @@
+/* Dashboard.css */
+.dashboard-container {
+  max-width: 700px;
+  margin: 50px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #34495e;
+}
+
+.dashboard-container h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.dashboard-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+}

@@ -1,0 +1,40 @@
+/* Navbar.css */
+nav {
+  background-color: #3498db;
+  padding: 15px 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+  color: #ecf0f1;
+}
+
+nav button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #c0392b;
+}

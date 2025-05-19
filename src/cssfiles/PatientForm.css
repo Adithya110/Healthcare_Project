@@ -1,0 +1,55 @@
+/* PatientList.css */
+
+.patient-list {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.patient-list h2 {
+  text-align: center;
+  color: #333;
+}
+
+.patient-list button {
+  margin: 10px 5px 10px 0;
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.patient-list button:hover {
+  background-color: #0056b3;
+}
+
+.patient-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.patient-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.patient-list li span {
+  flex-grow: 1;
+}
+
+.patient-list li button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+/* Pat*/
